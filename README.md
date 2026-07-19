@@ -303,3 +303,4 @@ open_to:
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4C1D95,50:2E1065,100:0B0416&height=150&section=footer" width="100%"/>
 
 </div>
+
