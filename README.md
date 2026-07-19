@@ -167,7 +167,7 @@ Explores the tradeoff space between model size, inference latency, and accuracy 
 ### Software Development Intern · Medvice
 **June 2024 – August 2024 (3 months) · Netherlands (Remote)**
 
-Sole backend contributor on a 4-person cross-border remote team, architecting a Dockerized Flask/SQLAlchemy REST API from scratch for Medvice's symptom-checker healthcare platform.
+Backend contributor on a 4-person cross-border remote team, architecting a Dockerized Flask/SQLAlchemy REST API from scratch for Medvice's symptom-checker healthcare platform.
 
 - Designed data models and API layer for structured medical data (symptoms, age, gender)
 - Containerised the application stack with Docker and docker-compose for consistent local development
@@ -221,12 +221,12 @@ Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, ex
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=edwardmagongo&show_icons=true&count_private=true&hide_border=true&bg_color=00000000&title_color=C4B5FD&text_color=E9D5FF&icon_color=8B5CF6" width="49%" />
-<img src="https://github-readme-streak-stats.demolab.com/?user=edwardmagongo&hide_border=true&background=00000000&ring=8B5CF6&fire=C4B5FD&currStreakLabel=E9D5FF" width="49%" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=edwardmagongo&show_icons=true&count_private=true&hide_border=true&bg_color=00000000&title_color=C4B5FD&text_color=E9D5FF&icon_color=8B5CF6" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=edwardmagongo&hide_border=true&background=00000000&ring=8B5CF6&fire=C4B5FD&currStreakLabel=E9D5FF" width="49%" />
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=edwardmagongo&layout=compact&hide_border=true&bg_color=00000000&title_color=C4B5FD&text_color=E9D5FF" width="49%" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=edwardmagongo&layout=compact&hide_border=true&bg_color=00000000&title_color=C4B5FD&text_color=E9D5FF" width="49%" />
 
 </div>
 
@@ -236,7 +236,7 @@ Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, ex
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=edwardmagongo&theme=discord&no-frame=true&row=1&column=6" />
+<img src="https://github-trophies.vercel.app/?username=edwardmagongo&theme=discord&no-frame=true&row=1&column=6" />
 
 </div>
 
