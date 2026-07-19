@@ -1,29 +1,29 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0416,50:2E1065,100:4C1D95&height=220&section=header&text=Edward%20Magongo&fontSize=48&fontColor=E9D5FF&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%C2%B7%20AI%2FML%20Researcher%20%C2%B7%20Full-Stack%20Builder&descAlignY=58&descSize=18&fontColor=E9D5FF" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:141414,100:1F1F1F&height=220&section=header&text=Edward%20Magongo&fontSize=48&fontColor=F5F5F5&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%C2%B7%20AI%2FML%20Researcher%20%C2%B7%20Full-Stack%20Builder&descAlignY=58&descSize=18&fontColor=F5F5F5" width="100%"/>
 
 <a href="https://github.com/edwardmagongo">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=C4B5FD&center=true&vCenter=true&width=640&lines=Building+intelligent+systems+that+ship;NeurIPS-published+ML+Researcher;Full-Stack+%7C+TypeScript+%C2%B7+Python+%C2%B7+PyTorch;Currently%3A+Solo-building+Discern-Match" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=89AACC&center=true&vCenter=true&width=640&lines=Building+intelligent+systems+that+ship;NeurIPS-published+ML+Researcher;Full-Stack+%7C+TypeScript+%C2%B7+Python+%C2%B7+PyTorch;Currently%3A+Solo-building+Discern-Match" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<img src="https://img.shields.io/badge/University%20of%20York-BSc%20Computer%20Science-6D28D9?style=flat-square&logo=googlescholar&logoColor=white" alt="University" />
-<img src="https://img.shields.io/badge/Published-NeurIPS%202024-7C3AED?style=flat-square&logo=arxiv&logoColor=white" alt="NeurIPS" />
-<img src="https://img.shields.io/badge/Location-United%20Kingdom-4C1D95?style=flat-square&logo=mapbox&logoColor=white" alt="Location" />
+<img src="https://img.shields.io/badge/University%20of%20York-BSc%20Computer%20Science-1F1F1F?style=flat-square&logo=googlescholar&logoColor=F5F5F5" alt="University" />
+<img src="https://img.shields.io/badge/Published-NeurIPS%202024-4E85BF?style=flat-square&logo=arxiv&logoColor=white" alt="NeurIPS" />
+<img src="https://img.shields.io/badge/Location-United%20Kingdom-1F1F1F?style=flat-square&logo=mapbox&logoColor=F5F5F5" alt="Location" />
 
 <br/><br/>
 
-<a href="https://edwardmagongo.com"><img src="https://img.shields.io/badge/Portfolio-edwardmagongo.com-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/edward-magongo"><img src="https://img.shields.io/badge/LinkedIn-Connect-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:edwardmagongo123@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/edwardmagongo"><img src="https://img.shields.io/badge/GitHub-Follow-4C1D95?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://edwardmagongo.com"><img src="https://img.shields.io/badge/Portfolio-edwardmagongo.com-4E85BF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/edward-magongo"><img src="https://img.shields.io/badge/LinkedIn-Connect-141414?style=for-the-badge&logo=linkedin&logoColor=F5F5F5" alt="LinkedIn" /></a>
+<a href="mailto:edwardmagongo123@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-141414?style=for-the-badge&logo=gmail&logoColor=F5F5F5" alt="Email" /></a>
+<a href="https://github.com/edwardmagongo"><img src="https://img.shields.io/badge/GitHub-Follow-0A0A0A?style=for-the-badge&logo=github&logoColor=F5F5F5" alt="GitHub" /></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=edwardmagongo&label=Profile%20Views&color=6D28D9&style=flat-square" alt="Profile Views" />
-<img src="https://img.shields.io/github/followers/edwardmagongo?label=Followers&style=flat-square&color=7C3AED" alt="Followers" />
-<img src="https://img.shields.io/github/stars/edwardmagongo?label=Stars&style=flat-square&color=8B5CF6" alt="Stars" />
+<img src="https://komarev.com/ghpvc/?username=edwardmagongo&label=Profile%20Views&color=1F1F1F&style=flat-square" alt="Profile Views" />
+<img src="https://img.shields.io/github/followers/edwardmagongo?label=Followers&style=flat-square&color=141414" alt="Followers" />
+<img src="https://img.shields.io/github/stars/edwardmagongo?label=Stars&style=flat-square&color=4E85BF" alt="Stars" />
 
 </div>
 
@@ -210,8 +210,8 @@ Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, ex
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/PCAP-Programming%20Essentials%20in%20Python-6D28D9?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Veritas%20AI%20Scholars%20Bootcamp-Completed-7C3AED?style=flat-square&logo=googlescholar&logoColor=white" />
+<img src="https://img.shields.io/badge/PCAP-Programming%20Essentials%20in%20Python-141414?style=flat-square&logo=python&logoColor=F5F5F5" />
+<img src="https://img.shields.io/badge/Veritas%20AI%20Scholars%20Bootcamp-Completed-1F1F1F?style=flat-square&logo=googlescholar&logoColor=F5F5F5" />
 
 </div>
 
@@ -221,12 +221,12 @@ Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, ex
 
 <div align="center">
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=edwardmagongo&show_icons=true&count_private=true&hide_border=true&bg_color=00000000&title_color=C4B5FD&text_color=E9D5FF&icon_color=8B5CF6" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=edwardmagongo&hide_border=true&background=00000000&ring=8B5CF6&fire=C4B5FD&currStreakLabel=E9D5FF" width="49%" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=edwardmagongo&show_icons=true&count_private=true&hide_border=true&bg_color=00000000&title_color=89AACC&text_color=F5F5F5&icon_color=4E85BF" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=edwardmagongo&hide_border=true&background=00000000&ring=4E85BF&fire=89AACC&currStreakLabel=F5F5F5" width="49%" />
 
 <br/>
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=edwardmagongo&layout=compact&hide_border=true&bg_color=00000000&title_color=C4B5FD&text_color=E9D5FF" width="49%" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=edwardmagongo&layout=compact&hide_border=true&bg_color=00000000&title_color=89AACC&text_color=F5F5F5" width="49%" />
 
 </div>
 
@@ -236,7 +236,7 @@ Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, ex
 
 <div align="center">
 
-<img src="https://github-trophies.vercel.app/?username=edwardmagongo&theme=discord&no-frame=true&row=1&column=6" />
+<img src="https://github-trophies.vercel.app/?username=edwardmagongo&theme=darkhub&no-frame=true&row=1&column=6" />
 
 </div>
 
@@ -246,7 +246,7 @@ Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, ex
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=edwardmagongo&theme=react-dark&bg_color=00000000&color=C4B5FD&line=8B5CF6&point=E9D5FF&hide_border=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=edwardmagongo&bg_color=00000000&color=F5F5F5&line=4E85BF&point=89AACC&hide_border=true" width="100%" />
 
 </div>
 
@@ -287,10 +287,10 @@ open_to:
 
 <div align="center">
 
-<a href="mailto:edwardmagongo123@gmail.com"><img src="https://img.shields.io/badge/Gmail-edwardmagongo123-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/edward-magongo"><img src="https://img.shields.io/badge/LinkedIn-edward--magongo-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/edwardmagongo"><img src="https://img.shields.io/badge/GitHub-edwardmagongo-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="https://edwardmagongo.com"><img src="https://img.shields.io/badge/Portfolio-edwardmagongo.com-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="mailto:edwardmagongo123@gmail.com"><img src="https://img.shields.io/badge/Gmail-edwardmagongo123-141414?style=for-the-badge&logo=gmail&logoColor=F5F5F5" /></a>
+<a href="https://www.linkedin.com/in/edward-magongo"><img src="https://img.shields.io/badge/LinkedIn-edward--magongo-1F1F1F?style=for-the-badge&logo=linkedin&logoColor=F5F5F5" /></a>
+<a href="https://github.com/edwardmagongo"><img src="https://img.shields.io/badge/GitHub-edwardmagongo-0A0A0A?style=for-the-badge&logo=github&logoColor=F5F5F5" /></a>
+<a href="https://edwardmagongo.com"><img src="https://img.shields.io/badge/Portfolio-edwardmagongo.com-4E85BF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 
 </div>
 
@@ -300,7 +300,7 @@ open_to:
 
 *"Designing intelligent systems by focusing on the unique nuances which bring products to life."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4C1D95,50:2E1065,100:0B0416&height=150&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F1F1F,50:141414,100:0A0A0A&height=150&section=footer" width="100%"/>
 
 </div>
 
