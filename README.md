@@ -221,12 +221,12 @@ Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, ex
 
 <div align="center">
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=edwardmagongo&show_icons=true&count_private=true&hide_border=true&bg_color=00000000&title_color=89AACC&text_color=F5F5F5&icon_color=4E85BF" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=edwardmagongo&hide_border=true&background=00000000&ring=4E85BF&fire=89AACC&currStreakLabel=F5F5F5" width="49%" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=edwardmagongo&show_icons=true&count_private=true&hide_border=true&bg_color=0A0A0A&title_color=89AACC&text_color=F5F5F5&icon_color=4E85BF" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=edwardmagongo&hide_border=true&background=0A0A0A&ring=4E85BF&fire=89AACC&currStreakNum=F5F5F5&sideNums=F5F5F5&currStreakLabel=F5F5F5&sideLabels=F5F5F5&dates=878787" width="49%" />
 
 <br/>
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=edwardmagongo&layout=compact&hide_border=true&bg_color=00000000&title_color=89AACC&text_color=F5F5F5" width="49%" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=edwardmagongo&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=89AACC&text_color=F5F5F5" width="49%" />
 
 </div>
 
@@ -246,7 +246,7 @@ Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, ex
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=edwardmagongo&bg_color=00000000&color=F5F5F5&line=4E85BF&point=89AACC&hide_border=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=edwardmagongo&bg_color=0A0A0A&color=F5F5F5&line=4E85BF&point=89AACC&hide_border=true" width="100%" />
 
 </div>
 
