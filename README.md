@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:141414,100:1F1F1F&height=220&section=header&text=Edward%20Magongo&fontSize=48&fontColor=F5F5F5&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%C2%B7%20AI%2FML%20Researcher%20%C2%B7%20Full-Stack%20Builder&descAlignY=58&descSize=18&fontColor=F5F5F5" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:141414,100:1F1F1F&height=220&section=header&text=Edward%20Magongo&fontSize=48&fontColor=F5F5F5&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%C2%B7%20AI%2FML%20Researcher%20%C2%B7%20Full-Stack%20Builder&descAlignY=58&descSize=18" width="100%"/>
 
 <a href="https://github.com/edwardmagongo">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=89AACC&center=true&vCenter=true&width=640&lines=Building+intelligent+systems+that+ship;NeurIPS-published+ML+Researcher;Full-Stack+%7C+TypeScript+%C2%B7+Python+%C2%B7+PyTorch;Currently%3A+Solo-building+Discern-Match" alt="Typing SVG" />
