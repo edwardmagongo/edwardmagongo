@@ -55,7 +55,7 @@ I care about the nuances that separate a prototype from a product: error rates, 
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=ts,js,py,dart&theme=dark" />
+<img src="https://skillicons.dev/icons?i=ts,js,py,java,dart&theme=dark" />
 
 **Frontend**
 
@@ -63,11 +63,11 @@ I care about the nuances that separate a prototype from a product: error rates, 
 
 **Backend & Databases**
 
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,flask,sqlite,py&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,spring,flask,postgres,sqlite,prisma,py&theme=dark" />
 
 **Cloud, DevOps & Tooling**
 
-<img src="https://skillicons.dev/icons?i=docker,aws,vercel,firebase,git,github&theme=dark" />
+<img src="https://skillicons.dev/icons?i=docker,aws,terraform,vercel,firebase,git,github&theme=dark" />
 
 ---
 
@@ -97,9 +97,45 @@ A full-stack TypeScript monorepo solo-architected end-to-end — mobile, web, ad
 | **Performance** | Turborepo pipeline caching across shared, type-safe contracts between apps |
 | **Security** | AWS S3-backed asset storage with RevenueCat-managed payment entitlements |
 | **Impact** | Architecture, backend, mobile, and admin tooling — built entirely by one engineer |
-| **Repository** | [github.com/edwardmagongo/Discern-Match](https://github.com/edwardmagongo/Discern-Match) |
+| **Repository** | Private — product codebase |
 
 Currently in active, ongoing development — a custom design system underpins all three client surfaces, with a single NestJS backend serving web, mobile, and admin consumers.
+
+</details>
+
+<details>
+<summary><strong>LedgerAPI</strong> — Concurrency-safe banking ledger REST API</summary>
+<br/>
+
+A Spring Boot banking ledger API where the interesting part isn't the CRUD — it's that concurrent transfers against the same account provably cannot corrupt a balance, backed by automated tests that fail if that stops being true.
+
+| | |
+|---|---|
+| **Stack** | Java 21 · Spring Boot · Spring Data JPA · Spring Security (JWT) · PostgreSQL · Flyway · Testcontainers · Terraform · AWS ECS Fargate |
+| **Scale** | Full transfer/deposit/withdrawal ledger with account-to-account transfers under concurrent load |
+| **Performance** | Optimistic locking with retry on write conflicts keeps concurrent transfers correct without serializing all writes |
+| **Security** | JWT authentication; idempotency keys prevent duplicate transfer execution on retried requests |
+| **Impact** | Deployed to AWS ECS Fargate via Terraform-managed infrastructure |
+| **Repository** | [github.com/edwardmagongo/LedgerAPI](https://github.com/edwardmagongo/LedgerAPI) |
+
+Testcontainers spins up a throwaway Postgres per test run, so the concurrency guarantees are verified against a real database, not mocks.
+
+</details>
+
+<details>
+<summary><strong>Next Gen</strong> — Bilingual property management platform</summary>
+<br/>
+
+A production-shaped property management platform for a Dar es Salaam-based company: a public marketing site plus an authenticated portal for tenants, property managers, and administrators, in English and Swahili.
+
+| | |
+|---|---|
+| **Stack** | Next.js 15 (App Router) · React 19 · TypeScript · PostgreSQL · Prisma · next-intl · Tailwind CSS v4 · M-Pesa (Safaricom Daraja) |
+| **Scale** | One deployable serving the public site and the full multi-role authenticated portal, with locale-prefixed routing (`/en`, `/sw`) |
+| **Performance** | Invoice status (pending/partial/paid/overdue) is derived from payments and due dates rather than hand-set, so it can't drift out of sync |
+| **Security** | Centralized authorization policies with resource-ownership checks on every request; documents and photos stream through access-checked routes rather than public URLs; money handled as integer cents throughout |
+| **Impact** | End-to-end platform covering marketing, tenancy management, maintenance requests, documents, and M-Pesa mobile payments |
+| **Repository** | Private — client codebase |
 
 </details>
 
@@ -200,7 +236,7 @@ Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, ex
 | NeurIPS Publication (Oct 2024) | *"Quantum-Inspired Techniques for Efficient Model Compression in Convolutional Neural Networks"* |
 | Production Impact | Cut database errors by 90% as sole backend contributor at Medvice |
 | Early Production Experience | Shipped a production API handling 1,000+ daily requests before starting university |
-| Project Delivery | 6 projects shipped end-to-end, spanning research, full-stack, and mobile domains |
+| Project Delivery | 8 projects shipped end-to-end, spanning research, full-stack, backend, and mobile domains |
 
 </div>
 
@@ -271,6 +307,8 @@ learning:
 
 building:
   - Discern-Match — full-stack TypeScript monorepo (NestJS, Expo, Next.js)
+  - LedgerAPI — concurrency-safe banking ledger API (Spring Boot, AWS ECS Fargate)
+  - Next Gen — bilingual property management platform (Next.js, Prisma, M-Pesa)
 
 exploring:
   - New areas across AI/ML research and full-stack systems design
