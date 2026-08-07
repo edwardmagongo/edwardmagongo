@@ -3,13 +3,13 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:89AACC,100:4E85BF&height=220&section=header&text=Edward%20Magongo&fontSize=48&fontColor=F5F5F5&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%C2%B7%20AI%2FML%20Researcher%20%C2%B7%20Full-Stack%20Builder&descAlignY=58&descSize=18" width="100%"/>
 
 <a href="https://github.com/edwardmagongo">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=89AACC&center=true&vCenter=true&width=640&lines=Building+intelligent+systems+that+ship;NeurIPS-published+ML+Researcher;Full-Stack+%7C+TypeScript+%C2%B7+Python+%C2%B7+PyTorch;Currently%3A+Solo-building+Discern-Match" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=89AACC&center=true&vCenter=true&width=640&lines=Building+intelligent+systems+that+ship;NeurIPS+2024+Workshop+Co-Author;Full-Stack+%7C+TypeScript+%C2%B7+Python+%C2%B7+Java;Currently%3A+Software+Developer+%40+Discern+Match" alt="Typing SVG" />
 </a>
 
 <br/>
 
 <img src="https://img.shields.io/badge/University%20of%20York-BSc%20Computer%20Science-1F1F1F?style=flat-square&logo=googlescholar&logoColor=F5F5F5" alt="University" />
-<img src="https://img.shields.io/badge/Published-NeurIPS%202024-4E85BF?style=flat-square&logo=arxiv&logoColor=white" alt="NeurIPS" />
+<img src="https://img.shields.io/badge/NeurIPS%202024-Workshop%20Co--Author-4E85BF?style=flat-square&logo=arxiv&logoColor=white" alt="NeurIPS" />
 <img src="https://img.shields.io/badge/Location-United%20Kingdom-1F1F1F?style=flat-square&logo=mapbox&logoColor=F5F5F5" alt="Location" />
 
 <br/><br/>
@@ -33,13 +33,13 @@
 
 <img align="right" width="320" src="https://skillicons.dev/icons?i=py,ts,pytorch,nestjs,flask,react&theme=dark&perline=3" />
 
-I'm a second-year Computer Science student at the **University of York**, building software that works in production — not just on localhost. Before my first university lecture, I had already shipped a production API handling 1,000+ daily requests, and gone on to publish research at **NeurIPS**.
+I'm entering my second year of Computer Science at the **University of York**, building software that works in production — not just on localhost. Before my first university lecture, I had already shipped a production API handling 1,000+ daily requests, and gone on to co-author research presented at a **NeurIPS** workshop.
 
 My engineering work spans three intersecting areas:
 
 - **Full-stack product engineering** — architecting complete systems end-to-end: backend services, web and mobile clients, and the infrastructure that ties them together.
-- **Applied AI/ML research** — quantum-inspired model compression techniques for convolutional neural networks, peer-recognized at NeurIPS 2024.
-- **Independent ownership** — solo-architecting `Discern-Match`, a full-stack TypeScript monorepo spanning mobile, web, and admin tooling, with a product engineer's eye for the details that make software feel finished.
+- **Applied AI/ML research** — quantum-inspired model compression techniques for convolutional neural networks, co-authored and presented at a NeurIPS 2024 workshop.
+- **Production LLM engineering** — shipping LLM-powered features end-to-end at `Discern-Match` as its Software Developer, from prompt design and structured-output pipelines against the Anthropic API through realtime backend infrastructure.
 
 I care about the nuances that separate a prototype from a product: error rates, deployment consistency, and the architectural decisions that hold up under real usage.
 
@@ -63,11 +63,16 @@ I care about the nuances that separate a prototype from a product: error rates, 
 
 **Backend & Databases**
 
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,spring,flask,postgres,sqlite,prisma,py&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,spring,flask,postgres,sqlite,prisma,redis,py&theme=dark" />
 
 **Cloud, DevOps & Tooling**
 
 <img src="https://skillicons.dev/icons?i=docker,aws,terraform,vercel,firebase,git,github&theme=dark" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Railway-141414?style=flat-square&logo=railway&logoColor=white" alt="Railway" />
+<img src="https://img.shields.io/badge/Socket.io-141414?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io" />
 
 ---
 
@@ -75,10 +80,10 @@ I care about the nuances that separate a prototype from a product: error rates, 
 
 | Domain | Proficiency | Details |
 |---|---|---|
-| Model Compression | Advanced | Quantum-inspired pruning and tensor decomposition applied to CNN architectures (GoogLeNet, DenseNet, ResNet-18); published at NeurIPS 2024 |
+| Model Compression | Advanced | Quantum-inspired pruning, tensor decomposition, and annealing-based matrix factorization applied to CNN architectures (GoogLeNet, DenseNet, ResNet-18); co-authored, presented at a NeurIPS 2024 workshop |
 | Computer Vision | Intermediate | CNN image classification on CIFAR-10 using Keras, with data augmentation and performance visualization |
-| Applied Research | Advanced | Peer-recognized publication exploring efficiency/accuracy tradeoffs in deep learning inference |
-| LLM Integration | Intermediate | Product-level integration of the Anthropic API within the `Discern-Match` platform |
+| Applied Research | Advanced | Co-authored workshop paper exploring efficiency/accuracy tradeoffs in deep learning inference |
+| LLM Integration | Advanced | Production LLM feature development (resonance generation, moderation, onboarding analysis) via the Anthropic API and Claude Code, with structured-output pipelines and evaluation against real user data at `Discern-Match` |
 
 ---
 
@@ -88,15 +93,15 @@ I care about the nuances that separate a prototype from a product: error rates, 
 <summary><strong>Discern-Match</strong> — AI-powered matchmaking platform</summary>
 <br/>
 
-A full-stack TypeScript monorepo solo-architected end-to-end — mobile, web, admin tooling, and backend all built independently.
+A full-stack TypeScript monorepo architected end-to-end — mobile, web, admin tooling, backend, and now production LLM features, shipped as the platform's Software Developer.
 
 | | |
 |---|---|
-| **Stack** | NestJS · Next.js · Expo / React Native · Turborepo · TypeScript · AWS S3 · RevenueCat · Anthropic API |
-| **Scale** | Full-stack monorepo spanning three client surfaces (web, mobile, admin) and one backend service |
-| **Performance** | Turborepo pipeline caching across shared, type-safe contracts between apps |
+| **Stack** | NestJS · Next.js · Expo / React Native · Turborepo · TypeScript · PostgreSQL · Prisma · Redis · Socket.io · Docker · AWS S3 · RevenueCat · Anthropic API |
+| **Scale** | Full-stack monorepo spanning three client surfaces (web, mobile, admin), one backend service, and a realtime infrastructure layer |
+| **Performance** | Turborepo pipeline caching across shared, type-safe contracts between apps; Socket.io/Redis-backed realtime backend reduces manual deployment overhead |
 | **Security** | AWS S3-backed asset storage with RevenueCat-managed payment entitlements |
-| **Impact** | Architecture, backend, mobile, and admin tooling — built entirely by one engineer |
+| **Impact** | Shipped LLM-powered features — resonance generation, moderation, onboarding analysis — via iterative prompt design and structured-output pipelines evaluated against real user data |
 | **Repository** | Private — product codebase |
 
 Currently in active, ongoing development — a custom design system underpins all three client surfaces, with a single NestJS backend serving web, mobile, and admin consumers.
@@ -111,11 +116,11 @@ A Spring Boot banking ledger API where the interesting part isn't the CRUD — i
 
 | | |
 |---|---|
-| **Stack** | Java 21 · Spring Boot · Spring Data JPA · Spring Security (JWT) · PostgreSQL · Flyway · Testcontainers · Terraform · AWS ECS Fargate |
+| **Stack** | Java 21 · Spring Boot · Spring Data JPA · Spring Security (JWT) · PostgreSQL · Flyway · Testcontainers · Terraform · AWS ECS Fargate · GitHub Actions |
 | **Scale** | Full transfer/deposit/withdrawal ledger with account-to-account transfers under concurrent load |
-| **Performance** | Optimistic locking with retry on write conflicts keeps concurrent transfers correct without serializing all writes |
-| **Security** | JWT authentication; idempotency keys prevent duplicate transfer execution on retried requests |
-| **Impact** | Deployed to AWS ECS Fargate via Terraform-managed infrastructure |
+| **Performance** | Optimistic locking with a bounded, jittered retry loop sustains 400+ req/s at a 99%+ success rate under 20-way concurrent write contention on a single account |
+| **Security** | JWT authentication; database-constraint-backed idempotency keys with request fingerprinting resolve 20 concurrent duplicate requests to exactly one execution — zero balance discrepancy across 1,000+ reconciled transactions |
+| **Impact** | Deployed to AWS ECS Fargate via Terraform-managed infrastructure, with CI/CD through GitHub Actions |
 | **Repository** | [github.com/edwardmagongo/LedgerAPI](https://github.com/edwardmagongo/LedgerAPI) |
 
 Testcontainers spins up a throwaway Postgres per test run, so the concurrency guarantees are verified against a real database, not mocks.
@@ -143,15 +148,15 @@ A production-shaped property management platform for a Dar es Salaam-based compa
 <summary><strong>QIANets</strong> — Quantum-inspired AI model compression research</summary>
 <br/>
 
-Research initiative applying quantum-inspired pruning and tensor decomposition to convolutional neural networks, recognized at NeurIPS 2024.
+Research initiative applying quantum-inspired pruning, tensor decomposition, and annealing-based matrix factorization to convolutional neural networks, co-authored and presented at a NeurIPS 2024 workshop.
 
 | | |
 |---|---|
 | **Stack** | Python · PyTorch · JavaScript (research site) |
 | **Scale** | Applied across three CNN backbones: GoogLeNet, DenseNet, ResNet-18 |
-| **Performance** | Measurable inference latency reduction while preserving classification accuracy |
+| **Performance** | Reduced inference latency while preserving classification accuracy |
 | **Security** | N/A — academic research artifact, no production security surface |
-| **Impact** | Published at NeurIPS (October 2024) as sole author |
+| **Impact** | Co-authored *"QIANets: Quantum-Integrated Adaptive Networks for Reduced Latency and Improved Inference Times in CNN Models"*, presented at a NeurIPS 2024 workshop |
 | **Repository** | [github.com/edwardmagongo/QIANets-Website](https://github.com/edwardmagongo/QIANets-Website) |
 
 The research site documents the methodology and results behind the underlying compression technique, making the work accessible beyond the paper itself.
@@ -159,21 +164,21 @@ The research site documents the methodology and results behind the underlying co
 </details>
 
 <details>
-<summary><strong>Medvice</strong> — Dockerized healthcare REST API</summary>
+<summary><strong>Medvice</strong> — Healthcare JSON parser & REST API</summary>
 <br/>
 
-Architected a Dockerized Flask/SQLAlchemy REST API from scratch for Medvice's symptom-checker platform, as the sole backend contributor on a 4-person cross-border remote team.
+Built a Python (Flask) JSON parser and REST API producing structured, validated medical data output, as a backend contributor on a 4-person cross-border remote team for Medvice's symptom-checker platform.
 
 | | |
 |---|---|
-| **Stack** | Flask · SQLAlchemy · SQLite · Docker · Flask-Migrate |
+| **Stack** | Flask · SQLAlchemy · PostgreSQL / SQL |
 | **Scale** | Structured medical data API (symptoms, age, gender) powering Medvice's healthcare platform |
-| **Performance** | Standardised, containerised deployment consistent across dev, staging, and production |
-| **Security** | Validation logic enforced on all raw medical input, guaranteeing structured, accurate JSON output |
-| **Impact** | Cut database errors by 90%; shipped independently within a 3-month internship |
+| **Performance** | SQL-backed SQLAlchemy models, relationships, and CRUD endpoints designed for the parsing pipeline |
+| **Security** | Data integrity maintained across the parsing pipeline through ongoing testing and iteration against an unstructured brief |
+| **Impact** | Documented the API, database, and deployment architecture in a technical team presentation, creating reusable reference material for the team |
 | **Repository** | Private — company-owned codebase |
 
-Work typically handled by mid-level engineers, delivered end-to-end during a 3-month internship — including data modelling, API design, and migration management via Flask-Migrate.
+A 6-month remote internship covering data modelling, API design, and technical documentation for a cross-border engineering team.
 
 </details>
 
@@ -181,7 +186,7 @@ Work typically handled by mid-level engineers, delivered end-to-end during a 3-m
 <summary><strong>Quantum Compression</strong> — Efficient CNN compression techniques</summary>
 <br/>
 
-The core research engine behind the NeurIPS-published paper, implementing the quantum-inspired pruning and tensor decomposition methods applied in QIANets.
+The core research engine behind the NeurIPS workshop paper, implementing the quantum-inspired pruning, tensor decomposition, and annealing-based matrix factorization methods applied in QIANets.
 
 | | |
 |---|---|
@@ -189,10 +194,10 @@ The core research engine behind the NeurIPS-published paper, implementing the qu
 | **Scale** | Compression techniques evaluated across multiple CNN architectures |
 | **Performance** | Reduced inference latency while preserving model accuracy |
 | **Security** | N/A — academic research artifact |
-| **Impact** | Core technique behind *"Quantum-Inspired Techniques for Efficient Model Compression in Convolutional Neural Networks"*, published at NeurIPS 2024 |
+| **Impact** | Core technique behind *"QIANets: Quantum-Integrated Adaptive Networks for Reduced Latency and Improved Inference Times in CNN Models"*, co-authored and presented at a NeurIPS 2024 workshop |
 | **Repository** | [github.com/edwardmagongo/Quantum-Inspired-Model-Compression](https://github.com/edwardmagongo/Quantum-Inspired-Model-Compression) |
 
-Explores the tradeoff space between model size, inference latency, and accuracy — the foundation for the NeurIPS submission.
+Explores the tradeoff space between model size, inference latency, and accuracy — the foundation for the NeurIPS workshop submission.
 
 </details>
 
@@ -200,30 +205,27 @@ Explores the tradeoff space between model size, inference latency, and accuracy 
 
 ## Experience
 
+### Software Developer · Discern Match
+**May 2026 – Present · Remote**
+
+Shipping LLM-powered features for Discern-Match's matchmaking and moderation systems, working from an evolving, self-directed technical scope.
+
+- Shipped LLM-powered features (resonance generation, moderation, onboarding analysis) by designing and iterating on prompts against the Anthropic API, using Claude Code as a core workflow tool, and validating output quality through structured-output pipelines
+- Improved reliability of matchmaking and moderation features by evaluating model outputs against real user data and refining prompt design and pipeline logic based on the results
+- Reduced manual deployment overhead by building realtime backend infrastructure with Socket.io, Redis, PostgreSQL/Prisma, and Docker
+
+`Anthropic API` `Claude Code` `Socket.io` `Redis` `PostgreSQL` `Prisma` `Docker`
+
 ### Software Development Intern · Medvice
-**June 2024 – August 2024 (3 months) · Netherlands (Remote)**
+**July 2024 – December 2024 (6 months) · Netherlands (Remote)**
 
-Backend contributor on a 4-person cross-border remote team, architecting a Dockerized Flask/SQLAlchemy REST API from scratch for Medvice's symptom-checker healthcare platform.
+Backend contributor on a 4-person cross-border remote team, building a Python (Flask) JSON parser and REST API producing structured, validated medical data output.
 
-- Designed data models and API layer for structured medical data (symptoms, age, gender)
-- Containerised the application stack with Docker and docker-compose for consistent local development
-- Implemented Flask-Migrate database migrations to manage schema changes reliably across the project
-- Collaborated on validation logic to ensure structured, accurate JSON output from raw medical input
-- Cut database errors by 90% and standardised deployment across dev, staging, and production
+- Designed SQL-backed SQLAlchemy models, relationships, and CRUD endpoints for structured medical data (symptoms, age, gender)
+- Documented the API, database, and deployment architecture in a technical team presentation, creating reusable reference material for the team
+- Maintained data integrity across the parsing pipeline through ongoing testing and iteration against an unstructured brief
 
-`Flask` `SQLAlchemy` `Docker` `SQLite` `REST API Design` `Flask-Migrate`
-
-### Software Development Intern · SoftNet Technologies Limited
-**June 2024 – July 2024 (2 months) · Dar es Salaam, Tanzania**
-
-Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, extending cross-platform product coverage.
-
-- Improved mobile app load times by 15% via image caching, lazy loading, and state management
-- Delivered features to 50+ beta testers, improving onboarding experience
-- Participated in full agile development sprints from feature scoping through QA testing
-- Built responsive web and mobile features with Firebase integration for consistent cross-platform UX
-
-`Flutter` `Dart` `Firebase` `Agile` `State Management` `Cross-Platform Development`
+`Flask` `SQLAlchemy` `PostgreSQL/SQL` `REST API Design`
 
 ---
 
@@ -233,8 +235,8 @@ Delivered end-to-end Flutter/Dart UI features within a 5-engineer agile team, ex
 
 | Recognition | Details |
 |---|---|
-| NeurIPS Publication (Oct 2024) | *"Quantum-Inspired Techniques for Efficient Model Compression in Convolutional Neural Networks"* |
-| Production Impact | Cut database errors by 90% as sole backend contributor at Medvice |
+| NeurIPS 2024 Workshop (Jun–Dec 2024) | Co-authored *"QIANets: Quantum-Integrated Adaptive Networks for Reduced Latency and Improved Inference Times in CNN Models"* |
+| Concurrency Engineering | LedgerAPI sustains 400+ req/s at 99%+ success under 20-way concurrent write contention, with zero balance discrepancy across 1,000+ reconciled transactions |
 | Early Production Experience | Shipped a production API handling 1,000+ daily requests before starting university |
 | Project Delivery | 8 projects shipped end-to-end, spanning research, full-stack, backend, and mobile domains |
 
@@ -306,7 +308,7 @@ learning:
   - Advanced LLM application patterns with the Anthropic API
 
 building:
-  - Discern-Match — full-stack TypeScript monorepo (NestJS, Expo, Next.js)
+  - Discern-Match — LLM-powered features & realtime backend infra (Anthropic API, Socket.io, Redis, NestJS)
   - LedgerAPI — concurrency-safe banking ledger API (Spring Boot, AWS ECS Fargate)
   - Next Gen — bilingual property management platform (Next.js, Prisma, M-Pesa)
 
