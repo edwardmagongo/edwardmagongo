@@ -30,7 +30,7 @@ and accepted to a NeurIPS 2024 workshop on neural compression.
 
 `Python` `PyTorch`
 
-→ [Paper (arXiv)](https://arxiv.org/abs/2410.10318) · [Research site](https://github.com/edwardmagongo/QIANets-Website)
+→ [Paper (arXiv)](https://arxiv.org/abs/2410.10318) · [NeurIPS Poster](https://neurips.cc/virtual/2024/poster/98205)
 
 **[Personal-Portfolio](https://github.com/edwardmagongo/Personal-Portfolio)** — this site.
 React, TypeScript, and Vite, with a hand-built scroll/animation stack and a serverless contact
