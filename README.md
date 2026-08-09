@@ -46,7 +46,8 @@ form.
 Shipping LLM-powered features (resonance generation, moderation, onboarding analysis) for a
 matchmaking platform: prompt design and structured-output pipelines against the Anthropic API,
 evaluated against real user data, plus realtime backend infrastructure (Socket.io, Redis,
-PostgreSQL/Prisma, Docker).
+PostgreSQL/Prisma, Docker). → [auth-hardening](https://github.com/edwardmagongo/auth-hardening):
+a standalone extract of the session-security layer (JWT revocation, login throttling).
 
 **Software Development Intern · Medvice** — *Jul 2024 – Dec 2024, Netherlands (Remote)*
 Backend contributor on a 4-person cross-border team: a Flask/SQLAlchemy JSON parser and REST
