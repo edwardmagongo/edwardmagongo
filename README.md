@@ -28,8 +28,7 @@ zero balance discrepancy across 1,000+ reconciled transactions.
 TfL's live Arrivals API, turning a noisy stream of repeated, expiring predictions into clean,
 deduplicated lifecycle records in Postgres. 36 tests (unit + Testcontainers integration against
 real captured API responses, no live network calls in the suite); runs on a GitHub Actions cron
-every ~5 minutes, with an honest-limitations section instead of glossing over what's unverifiable
-from TfL's public feed.
+every ~5 minutes.
 
 `TypeScript` `PostgreSQL` `Testcontainers` `Jest` `GitHub Actions`
 
