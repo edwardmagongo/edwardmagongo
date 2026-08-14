@@ -24,6 +24,17 @@ zero balance discrepancy across 1,000+ reconciled transactions.
 
 → [Live demo](http://ledger-api-alb-1715046521.eu-west-2.elb.amazonaws.com/swagger-ui.html) · [Full README](https://github.com/edwardmagongo/LedgerAPI#readme)
 
+**[tfl-pulse](https://github.com/edwardmagongo/TFL-Pulse)** — a scheduled ingestion pipeline over
+TfL's live Arrivals API, turning a noisy stream of repeated, expiring predictions into clean,
+deduplicated lifecycle records in Postgres. 36 tests (unit + Testcontainers integration against
+real captured API responses, no live network calls in the suite); runs on a GitHub Actions cron
+every ~5 minutes, with an honest-limitations section instead of glossing over what's unverifiable
+from TfL's public feed.
+
+`TypeScript` `PostgreSQL` `Testcontainers` `Jest` `GitHub Actions`
+
+→ [Full README](https://github.com/edwardmagongo/TFL-Pulse#readme)
+
 **[QIANets](https://github.com/edwardmagongo/QIANets-Website)** — quantum-inspired model
 compression for CNNs (GoogLeNet, DenseNet, ResNet-18), co-authored with five other researchers
 and accepted to a NeurIPS 2024 workshop on neural compression.
