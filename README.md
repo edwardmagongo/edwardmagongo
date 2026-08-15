@@ -32,7 +32,7 @@ every ~5 minutes.
 
 `TypeScript` `PostgreSQL` `Testcontainers` `Jest` `GitHub Actions`
 
-→ [Full README](https://github.com/edwardmagongo/TFL-Pulse#readme)
+→ [Full README](https://github.com/edwardmagongo/TfL-Pulse#readme)
 
 **[QIANets](https://github.com/edwardmagongo/QIANets-Website)** — quantum-inspired model
 compression for CNNs (GoogLeNet, DenseNet, ResNet-18), co-authored with five other researchers
