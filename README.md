@@ -24,7 +24,7 @@ zero balance discrepancy across 1,000+ reconciled transactions.
 
 → [Live demo](http://ledger-api-alb-1715046521.eu-west-2.elb.amazonaws.com/swagger-ui.html) · [Full README](https://github.com/edwardmagongo/LedgerAPI#readme)
 
-**[tfl-pulse](https://github.com/edwardmagongo/TFL-Pulse)** — a scheduled ingestion pipeline over
+**[TFL-Pulse](https://github.com/edwardmagongo/TFL-Pulse)** — a scheduled ingestion pipeline over
 TfL's live Arrivals API, turning a noisy stream of repeated, expiring predictions into clean,
 deduplicated lifecycle records in Postgres. 36 tests (unit + Testcontainers integration against
 real captured API responses, no live network calls in the suite); runs on a GitHub Actions cron
