@@ -59,7 +59,7 @@ evaluated against real user data, plus realtime backend infrastructure (Socket.i
 PostgreSQL/Prisma, Docker). → [auth-hardening](https://github.com/edwardmagongo/auth-hardening):
 a standalone extract of the session-security layer (JWT revocation, login throttling).
 
-**Software Development Intern · Medvice** — *Jul 2024 – Dec 2024, Netherlands (Remote)*
+**Software Development Intern · Medvice** — *Jun 2024 – Aug 2024, Netherlands (Remote)*
 Backend contributor on a 4-person cross-border team: a Flask/SQLAlchemy JSON parser and REST
 API producing structured, validated medical data, plus technical documentation of the API,
 database, and deployment architecture.
