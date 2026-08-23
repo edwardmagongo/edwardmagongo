@@ -53,11 +53,15 @@ form.
 ## Experience
 
 **Software Developer · Discern Match** — *May 2026 – Present, Remote*
-Shipping LLM-powered features (resonance generation, moderation, onboarding analysis) for a
-matchmaking platform: prompt design and structured-output pipelines against the Anthropic API,
-evaluated against real user data, plus realtime backend infrastructure (Socket.io, Redis,
-PostgreSQL/Prisma, Docker). → [auth-hardening](https://github.com/edwardmagongo/auth-hardening):
-a standalone extract of the session-security layer (JWT revocation, login throttling).
+Building the React Native (Expo) client for a matchmaking platform and the realtime
+infrastructure under it: a 60-screen TypeScript app on TanStack Query and Zustand, Socket.io
+chat with optimistic sends and sockets that refresh their JWT on every handshake and reconnect
+with backoff, and 1:1 WebRTC calling on LiveKit with end-to-end-encrypted media (X25519/HKDF)
+behind native CallKit/ConnectionService ring UI. Also shipping LLM-powered features (resonance
+generation, moderation, onboarding analysis) against the Anthropic API, evaluated on real user
+data, and the backend they run on (NestJS, Redis, PostgreSQL/Prisma, Docker).
+→ [auth-hardening](https://github.com/edwardmagongo/auth-hardening): a standalone extract of the
+session-security layer (JWT revocation, login throttling).
 
 **Software Development Intern · Medvice** — *Jun 2024 – Aug 2024, Netherlands (Remote)*
 Backend contributor on a 4-person cross-border team: a Flask/SQLAlchemy JSON parser and REST
@@ -70,7 +74,7 @@ database, and deployment architecture.
 
 Languages: TypeScript · Python · Java
 Backend: NestJS · Spring Boot · Flask · PostgreSQL · Prisma · Redis
-Frontend: React · Next.js · React Native (Expo)
+Frontend: React · Next.js · React Native (Expo) · TanStack Query · WebRTC (LiveKit)
 Infra: Docker · Terraform · AWS · GitHub Actions · Vercel
 
 ---
