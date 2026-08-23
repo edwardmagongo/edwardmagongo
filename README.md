@@ -58,10 +58,9 @@ site, and an admin console over a NestJS/PostgreSQL backend of 131 endpoints and
 guarded by 1,150+ tests and blocking security checks in CI. Realtime Socket.io chat, load-tested at
 1,000 concurrent connections (100% connection success, 99.3% delivery at 85 msgs/sec); 1:1 WebRTC
 calling on LiveKit with end-to-end-encrypted media behind native CallKit/ConnectionService ring UI;
-a session-security layer with refresh-token rotation, reuse detection and Redis-backed revocation;
-and LLM features (match resonance, moderation) on the Anthropic API, each with its own eval
-harness. → [auth-hardening](https://github.com/edwardmagongo/auth-hardening): a standalone extract
-of the session-security layer (JWT revocation, login throttling).
+a session-security layer with Argon2, refresh-token rotation with reuse detection, Redis-backed
+revocation, TOTP and OAuth; and LLM features (match resonance, moderation) on the Anthropic API,
+with an automated evaluation harness reaching 0.989 F1 over 152 labeled cases.
 
 **Software Development Intern · Medvice** — *Jun 2024 – Aug 2024, Netherlands (Remote)*
 Backend contributor on a 4-person cross-border team: a Flask/SQLAlchemy JSON parser and REST
