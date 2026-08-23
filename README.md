@@ -53,15 +53,15 @@ form.
 ## Experience
 
 **Software Developer · Discern Match** — *May 2026 – Present, Remote*
-Building the React Native (Expo) client for a matchmaking platform and the realtime
-infrastructure under it: a 60-screen TypeScript app on TanStack Query and Zustand, Socket.io
-chat with optimistic sends and sockets that refresh their JWT on every handshake and reconnect
-with backoff, and 1:1 WebRTC calling on LiveKit with end-to-end-encrypted media (X25519/HKDF)
-behind native CallKit/ConnectionService ring UI. Also shipping LLM-powered features (resonance
-generation, moderation, onboarding analysis) against the Anthropic API, evaluated on real user
-data, and the backend they run on (NestJS, Redis, PostgreSQL/Prisma, Docker).
-→ [auth-hardening](https://github.com/edwardmagongo/auth-hardening): a standalone extract of the
-session-security layer (JWT revocation, login throttling).
+Sole engineer on a three-client platform: a 60-screen React Native (Expo) app, a Next.js marketing
+site, and an admin console over a NestJS/PostgreSQL backend of 131 endpoints and 30 data models,
+guarded by 1,150+ tests and blocking security checks in CI. Realtime Socket.io chat, load-tested at
+1,000 concurrent connections (100% connection success, 99.3% delivery at 85 msgs/sec); 1:1 WebRTC
+calling on LiveKit with end-to-end-encrypted media behind native CallKit/ConnectionService ring UI;
+a session-security layer with refresh-token rotation, reuse detection and Redis-backed revocation;
+and LLM features (match resonance, moderation) on the Anthropic API, each with its own eval
+harness. → [auth-hardening](https://github.com/edwardmagongo/auth-hardening): a standalone extract
+of the session-security layer (JWT revocation, login throttling).
 
 **Software Development Intern · Medvice** — *Jun 2024 – Aug 2024, Netherlands (Remote)*
 Backend contributor on a 4-person cross-border team: a Flask/SQLAlchemy JSON parser and REST
