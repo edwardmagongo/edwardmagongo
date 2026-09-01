@@ -12,6 +12,21 @@ open to remote and relocation.
 
 ## What I've built
 
+**[EdgeFlow](https://github.com/edwardmagongo/EdgeFlow)** — a concurrent C++20 telemetry
+pipeline: simulated devices → TCP gateway → bounded queue → worker pool → batcher → sink. Each
+backpressure policy is characterised by measurement past the throughput knee a saturating load
+generator located, not by argument, and the lock-free queue is benchmarked head-to-head against
+the mutex one rather than assumed to win. Latency attribution put 73.9–88.3% of the sink's round
+trip in I/O wait; removing the single-in-flight limit returned a measured +29.5%. 185 tests, run
+under AddressSanitizer and ThreadSanitizer as well as plain — a green suite that has never been
+under TSan says little about a lock-free queue. Terraform provisions the full AWS stack, verified
+end to end against the live endpoint with the gateway's counters reconciling exactly against the
+backend's.
+
+`C++20` `Boost.Asio` `CMake` `NestJS` `PostgreSQL` `Redis` `React` `Terraform` `AWS ECS Fargate`
+
+→ [Full README](https://github.com/edwardmagongo/EdgeFlow#readme)
+
 **[LedgerAPI](https://github.com/edwardmagongo/LedgerAPI)** — a banking ledger REST API where
 concurrent transfers against the same account provably cannot corrupt a balance. Optimistic
 locking with a bounded, jittered retry loop; 145 tests including a concurrency suite that was
