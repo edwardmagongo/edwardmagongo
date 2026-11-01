@@ -28,7 +28,7 @@ on a column's units and a donor-weight solver that reported success without ever
 starting point. The language-model layer cannot invent a number — every value in a narrative is
 a placeholder verified against a fact table — and a 200-interpretation study with 150
 hand-labelled statements reports its own judge's 5.1% sensitivity as the weakness it is rather
-than quietly dropping it. 3,938 Python tests, 512 dashboard unit tests, 25 browser tests.
+than quietly dropping it. 3,944 Python tests, 512 dashboard unit tests, 25 browser tests.
 
 `Python 3.13` `statsmodels` `scikit-learn` `JAX` `NumPyro` `FastAPI` `PostgreSQL` `Redis` `Next.js` `Docker` `Terraform` `AWS`
 
