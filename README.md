@@ -12,25 +12,27 @@ open to remote and relocation.
 
 ## What I've built
 
-**CausalPulse** *(private — available on request)* — a causal inference and experimentation
-platform built around the part that is actually hard: knowing when *not* to believe an estimator.
-A scenario's true effect is computed from its realised potential outcomes rather than taken from
-its label, and an import-linter contract forbids every estimator package from importing the
-simulation code, so nothing can be tuned against the answer it is scored on. Twelve estimators,
-each checked where it should fail as well as where it should succeed — two-way fixed effects shown
-breaking under staggered adoption with the Goodman–Bacon decomposition explaining why, synthetic
-control pushed outside its donors' convex hull, reference parity against `statsmodels`, `pysyncon`
-and `econml`. A pre-registered 4,000-cell benchmark over ten estimators and thirteen scenarios met
-seven of its eight expectations; the eighth was a real bug, an outcome likelihood that was always
-Gaussian. Real data then found what simulation could not: LaLonde and Proposition 99 surfaced a
-propensity fit that depended on a column's units and a donor-weight solver that reported success
-without ever leaving its starting point. The language-model layer cannot invent a number — every
-value in a narrative is a placeholder verified against a fact table — and a 200-interpretation
-study with 150 hand-labelled statements reports its own judge's 5.1% sensitivity as the weakness
-it is rather than quietly dropping it. 3,938 Python tests, 512 dashboard unit tests, 25 browser
-tests.
+**[CausalPulse](https://github.com/edwardmagongo/causalpulse)** — a causal inference and
+experimentation platform built around the part that is actually hard: knowing when *not* to
+believe an estimator. A scenario's true effect is computed from its realised potential outcomes
+rather than taken from its label, and an import-linter contract forbids every estimator package
+from importing the simulation code, so nothing can be tuned against the answer it is scored on.
+Twelve estimators, each checked where it should fail as well as where it should succeed —
+two-way fixed effects shown breaking under staggered adoption with the Goodman–Bacon
+decomposition explaining why, synthetic control pushed outside its donors' convex hull,
+reference parity against `statsmodels`, `pysyncon` and `econml`. A pre-registered 4,000-cell
+benchmark over ten estimators and thirteen scenarios met seven of its eight expectations; the
+eighth was a real bug, an outcome likelihood that was always Gaussian. Real data then found
+what simulation could not: LaLonde and Proposition 99 surfaced a propensity fit that depended
+on a column's units and a donor-weight solver that reported success without ever leaving its
+starting point. The language-model layer cannot invent a number — every value in a narrative is
+a placeholder verified against a fact table — and a 200-interpretation study with 150
+hand-labelled statements reports its own judge's 5.1% sensitivity as the weakness it is rather
+than quietly dropping it. 3,938 Python tests, 512 dashboard unit tests, 25 browser tests.
 
 `Python 3.13` `statsmodels` `scikit-learn` `JAX` `NumPyro` `FastAPI` `PostgreSQL` `Redis` `Next.js` `Docker` `Terraform` `AWS`
+
+→ [Full README](https://github.com/edwardmagongo/causalpulse#readme)
 
 **[EdgeFlow](https://github.com/edwardmagongo/EdgeFlow)** — a concurrent C++20 telemetry
 pipeline: simulated devices → TCP gateway → bounded queue → worker pool → batcher → sink. Each
